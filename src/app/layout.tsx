@@ -1,11 +1,14 @@
 
-// import { Geist, Geist_Mono } from "next/font/google";
-// import "./globals.css";
+import { Nanum_Myeongjo } from "next/font/google";
+import "./globals.css";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
+const nanum = Nanum_Myeongjo({
+   variable: '--font-nanum',
+   weight: '400'
+});
 
 // const geistMono = Geist_Mono({
 //   variable: "--font-geist-mono",
@@ -24,8 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${nanum.variable} antialiased relative`}>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -4,7 +4,7 @@ export default function AhoyLoveCaseStudy() {
   return (
     <>
       <Head>
-        <title>AhoyLove – UX Case Study | Shubhi Srivastava</title>
+        <title>AhoyLove - UX Case Study | Shubhi Srivastava</title>
         <meta
           name="description"
           content="A UX case study of AhoyLove — a tool for long-distance maritime couples to stay emotionally connected across oceans."
@@ -31,7 +31,7 @@ export default function AhoyLoveCaseStudy() {
           <ul className="list-disc pl-5">
             <li>Role: UX & Product Designer, Frontend Developer</li>
             <li>Team: Solo project (mentored by senior UX leads)</li>
-            <li>Timeline: 4 weeks (May 2025 – June 2025)</li>
+            <li>Timeline: 4 weeks (May 2025 to June 2025)</li>
           </ul>
         </section>
 
@@ -48,7 +48,7 @@ export default function AhoyLoveCaseStudy() {
           <h2 className="text-2xl font-semibold mb-2">🧠 Research Insights</h2>
           <ul className="list-disc pl-5">
             <li>80% of maritime workers are in long-term relationships</li>
-            <li>Average contracts last 4–9 months with limited WiFi access</li>
+            <li>Average contracts last 4-9 months with limited WiFi access</li>
             <li>Partners report 47% higher emotional stress during separations</li>
           </ul>
         </section>

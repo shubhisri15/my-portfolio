@@ -39,7 +39,7 @@ export default function AhoyLoveCaseStudy() {
           <h2 className="text-2xl font-semibold mb-2">💡 The Problem</h2>
           <p>
             Maritime relationships often suffer from emotional disconnect due to inconsistent communication,
-            timezone mismatch, and a lack of ambient presence. Traditional chat apps aren't designed for this
+            timezone mismatch, and a lack of ambient presence. Traditional chat apps are not designed for this
             context.
           </p>
         </section>
@@ -110,7 +110,7 @@ export default function AhoyLoveCaseStudy() {
           <h2 className="text-2xl font-semibold mb-2">💬 What I Learned</h2>
           <p>
             Building for emotional connection requires a different lens than building for functionality.
-            I learned the importance of designing for “presence,” not just communication. User feedback
+            I learned the importance of designing for &quot;presence&quot;, not just communication. User feedback
             helped me simplify, slow down UI rhythms, and add more human warmth to the product.
           </p>
         </section>

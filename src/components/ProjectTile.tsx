@@ -1,7 +1,6 @@
 'use client'
 
 import Link from "next/link";
-import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoFigma } from "react-icons/io5";
 import NavLink from "./NavLink";
@@ -26,7 +25,7 @@ export default function ProjectTile({ title, overview = '', github, caseStudy }:
                 </div>
                 <div className="flex justify-between px-12 py-4">
                     <div className='flex gap-4'>
-                        <Link href='#' target="_blank"><FaGithub size='2rem' className='hover:fill-gray-600'/></Link>
+                        <Link href={github} target="_blank"><FaGithub size='2rem' className='hover:fill-gray-600'/></Link>
                         <Link href='#' target="_blank"><IoLogoFigma size='2rem' className='hover:fill-gray-600'/></Link>
                     </div>
                     <NavLink href={caseStudy} title='View Case Study'/>

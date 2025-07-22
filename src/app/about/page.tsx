@@ -15,7 +15,7 @@ export default function AboutSection() {
         </p>
 
         <p>
-          The coolest part? As I grew into a Full Stack Engineer, I found myself drawn to the frontend — crafting clean, intuitive interfaces and thinking deeply about the user behind the screen. "5 Whys" wasn’t just a process anymore, it became instinct.
+          The coolest part? As I grew into a Full Stack Engineer, I found myself drawn to the frontend — crafting clean, intuitive interfaces and thinking deeply about the user behind the screen. "5 Whys" wasn't just a process anymore, it became instinct.
         </p>
 
         <p>
@@ -23,7 +23,7 @@ export default function AboutSection() {
         </p>
 
         <p>
-          Fast forward to today, I'm a UX designer and frontend developer who’s spent the last few months bringing her eccentric ideas to life — crafting responsive, user-centric experiences that balance form and function.
+          Fast forward to today, I'm a UX designer and frontend developer who's spent the last few months bringing her eccentric ideas to life — crafting responsive, user-centric experiences that balance form and function.
         </p>
 
         <p>
@@ -35,7 +35,7 @@ export default function AboutSection() {
         href="https://www.linkedin.com/in/shubhisrivastava15/"
         className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition mt-8"
       >
-        Let’s chat over coffee
+        Let's chat over coffee
       </a>
     </section>
   );

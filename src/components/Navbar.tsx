@@ -1,16 +1,7 @@
 'use client'
 
-import Link from "next/link";
 import { HiOutlineSun } from "react-icons/hi2";
-
-type NavLinkProps = {
-    title: string,
-    href: string
-}
-
-const NavLink = ({ title = '', href = '' }: NavLinkProps) => {
-    return <Link href={href} className='hover:bg-gray-100 px-4 py-2 rounded-lg transition duration-150 ease-in'>{title}</Link>
-}
+import NavLink from "./NavLink";
 
 const toggleMode = () => {
     // I change the site theme from light to dark and vice versa

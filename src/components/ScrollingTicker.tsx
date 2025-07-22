@@ -19,9 +19,7 @@ export default function ScrollingTicker() {
   useEffect(() => {
     const measure = () => {
       if (tickerRef.current) {
-        console.log(tickerRef)
         setScrollWidth(tickerRef.current.offsetWidth)
-        console.log(tickerRef.current.offsetWidth)
       }
     }
 
@@ -48,8 +46,7 @@ export default function ScrollingTicker() {
               src={logo}
               alt={`logo-${i}`}
               width={50}
-              height={60}
-              className="opacity-80 hover:opacity-100"
+              className="opacity-80 hover:opacity-100 h-auto"
             />
           ))}
         </div>

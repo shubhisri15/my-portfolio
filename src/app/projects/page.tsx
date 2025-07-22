@@ -2,15 +2,11 @@ import ProjectTile from "@/components/ProjectTile";
 
 export default function ProjectPage() {
     return (
-        <div>
-            <div className='grid grid-cols-3 gap-8 justify-items-center p-4 box-border items-center'>
-                <ProjectTile title='Ahoy Love' figma='' id='1' github=''/>
-                <ProjectTile title='Trailcraft' figma='' id='2' github=''/>
-                <ProjectTile title='75 hard tracker' figma='' id='3' github=''/>
-                <ProjectTile title='Powerlifting site' figma='' id='4' github=''/>
-                <ProjectTile title='Component Library' figma='' id='5' github=''/>
-                <ProjectTile title='ShuBuzzFeed' figma='' id='6' github=''/>
+        <main className='flex justify-center'>
+            <div className='flex flex-col gap-8 p-4 w-2/3 items-center'>
+                <ProjectTile title='Ahoy Love' caseStudy='/projects/case-studies/ahoylove' github='https://github.com/shubhisri15/ahoylove' overview="AhoyLove is a multi-platform product designed to make life easier for people in long distance relationships with maritime officers." />
+                <h1 className='font-light text-5xl text-gray-500'>More projects coming soon..</h1>
             </div>    
-        </div>
+        </main>
     )
 }

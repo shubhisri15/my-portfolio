@@ -8,7 +8,7 @@ export default function Home() {
   return (
       <main className='flex justify-between gap-12 items-center py-8'>
         <div className='flex flex-col gap-8 overflow-hidden basis-1/2'>
-          <h1 className='text-8xl'>Shubhi Srivastava</h1>
+          <h1 className='text-7xl uppercase font-extrabold'>Shubhi <span className='text-gray-500'>Srivastava</span></h1>
           <div className='flex flex-col gap-2'>
             <p className='text-3xl'>Frontend Engineer | UX Designer</p>
             <p>I’m an engineer who blends clean code with thoughtful design, to build intuitive, performant interfaces that put users first.</p>
@@ -20,7 +20,7 @@ export default function Home() {
           <ScrollingTicker />
         </div>   
         <div>
-          <Image src={profilePic} alt='Shubhi profile picture' width={700} height={700} className="opacity-80"/>
+          <Image src={profilePic} alt='Shubhi profile picture' width={700} className="opacity-80 h-auto"/>
         </div>
       </main>
   );

@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+  
+}
+
 @layer utilities {
   @keyframes scrollLoop {
     0% {

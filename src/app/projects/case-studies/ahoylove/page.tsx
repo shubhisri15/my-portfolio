@@ -1,18 +1,11 @@
-import Head from 'next/head';
+import Link from 'next/link';
 
 export default function AhoyLoveCaseStudy() {
   return (
-    <>
-      <Head>
-        <title>AhoyLove - UX Case Study | Shubhi Srivastava</title>
-        <meta
-          name="description"
-          content="A UX case study of AhoyLove — a tool for long-distance maritime couples to stay emotionally connected across oceans."
-        />
-      </Head>
+      <main className="max-w-4xl mx-auto px-6 py-12 text-white">
+        <Link href='/projects' className='px-4 py-2 bg-slate-700 rounded-lg hover:bg-slate-800 absolute top-6 left-12'>Back to Projects</Link>
 
-      <main className="max-w-3xl mx-auto px-6 py-12 text-white">
-        <h1 className="text-4xl font-bold mb-4">AhoyLove</h1>
+        <h1 className="text-4xl font-bold mb-4 mt-8">AhoyLove</h1>
         <p className="text-xl mb-10 text-gray-400">
           Navigating love across oceans — a UX case study for long-distance maritime couples.
         </p>
@@ -124,6 +117,5 @@ export default function AhoyLoveCaseStudy() {
           </ul>
         </section>
       </main>
-    </>
   );
 }

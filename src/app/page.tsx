@@ -5,10 +5,10 @@ import { notoSerif } from './fonts/noto-serif';
 
 // Static image paths
 const imagePaths = [
-  "/hero-bg/1.jpg",
+  "/hero-bg/1.jpeg",
   "/hero-bg/2.jpeg",
   "/hero-bg/3.jpg",
-  "/hero-bg/4.jpg",
+  "/hero-bg/4.jpeg",
 ];
 
 export default function Home() {

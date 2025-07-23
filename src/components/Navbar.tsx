@@ -1,11 +1,6 @@
 'use client'
 
-import { HiOutlineSun } from "react-icons/hi2";
 import NavLink from "./NavLink";
-
-const toggleMode = () => {
-    // I change the site theme from light to dark and vice versa
-}
 
 export default function Navbar() {
     return (

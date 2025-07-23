@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="relative w-full h-screen overflow-hidden text-slate-300">
       {/* Background image strip */}
-      <div className="absolute inset-0 z-0 md:flex flex-col opacity-80">
+      <div className="absolute inset-0 z-0 flex flex-col md:flex-row opacity-80">
         {imagePaths.map((src, i) => (
           <div key={i} className="relative md:w-1/4 w-full md:h-full h-1/4">
             <Image

@@ -2,7 +2,7 @@ import { notoSerif } from "../fonts/noto-serif";
 
 export default function AboutSection() {
   return (
-    <section className="max-w-4xl mx-auto px-6 py-16 text-left mb-8">
+    <section className="max-w-4xl mx-auto px-6 py-16 text-left min-h-screen">
       <h2 className={`text-5xl font-bold mb-8 text-slate-200 font-light ${notoSerif.className}`}>Hi there, stalker!</h2>
 
       <div className="space-y-6 text-lg text-slate-400 leading-relaxed">

@@ -3,10 +3,10 @@ import { notoSerif } from "../fonts/noto-serif";
 
 export default function ProjectPage() {
     return (
-        <main className='flex flex-col items-center min-h-screen'>
+        <main className='flex flex-col items-center min-h-screen w-full overflow-hidden'>
 
             <h1 className={`text-6xl py-12 font-light ${notoSerif.className}`}>Case Studies</h1>
-            <div className='flex gap-12 p-4 flex-wrap justify-center'>
+            <div className='flex flex-col md:flex-row gap-12 p-4 px-12 md:flex-wrap md:justify-center items-center'>
                 <ProjectTile 
                     title='Ahoy Love' 
                     caseStudy='/projects/case-studies/ahoylove' 
@@ -31,8 +31,7 @@ export default function ProjectPage() {
                     github='' 
                     overview="A mobile app tracker for the popular 75 hard personal development challenge with detailed analytics. [Case study TBA]" 
                 />
-            </div>
-            <h1 className='font-light text-3xl text-gray-500 mt-8'>More projects coming soon..</h1>   
+            </div> 
         </main>
     )
 }

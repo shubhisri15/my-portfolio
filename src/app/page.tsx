@@ -15,15 +15,15 @@ export default function Home() {
   return (
     <main className="relative w-full h-screen overflow-hidden text-slate-300">
       {/* Background image strip */}
-      <div className="absolute inset-0 z-0 flex opacity-80">
+      <div className="absolute inset-0 z-0 md:flex flex-col opacity-80">
         {imagePaths.map((src, i) => (
-          <div key={i} className="relative w-1/4 h-full">
+          <div key={i} className="relative md:w-1/4 w-full md:h-full h-1/4">
             <Image
               src={src}
               alt={`bg-${i}`}
               fill
               className="object-cover"
-              priority={i === 0}
+              priority={true}
             />
           </div>
         ))}
@@ -35,9 +35,9 @@ export default function Home() {
       {/* Hero content */}
       <div className="relative z-20 flex flex-col justify-center gap-12 items-start h-full px-8 md:ml-40">
         <div className="flex flex-col gap-8">
-          <h1 className={`text-5xl md:text-7xl font-light fadeInUp delay-100 ${notoSerif.className}`}>She Came,</h1>
-          <h1 className={`text-5xl md:text-7xl font-light fadeInUp delay-300 ${notoSerif.className}`}>She Saw,</h1>
-          <h1 className={`text-5xl md:text-7xl font-light fadeInUp delay-500 ${notoSerif.className}`}>
+          <h1 className={`text-3xl md:text-7xl font-light fadeInUp delay-100 ${notoSerif.className}`}>She Came,</h1>
+          <h1 className={`text-3xl md:text-7xl font-light fadeInUp delay-300 ${notoSerif.className}`}>She Saw,</h1>
+          <h1 className={`text-3xl md:text-7xl font-light fadeInUp delay-500 ${notoSerif.className}`}>
             She <span className="font-bold text-slate-300">Design-gineered.</span>
           </h1>
 

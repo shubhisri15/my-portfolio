@@ -11,9 +11,9 @@ export default function AhoyLoveCaseStudy() {
         />
       </Head>
 
-      <main className="max-w-3xl mx-auto px-6 py-12 text-gray-800">
+      <main className="max-w-3xl mx-auto px-6 py-12 text-white">
         <h1 className="text-4xl font-bold mb-4">AhoyLove</h1>
-        <p className="text-xl mb-10 text-gray-600">
+        <p className="text-xl mb-10 text-gray-400">
           Navigating love across oceans — a UX case study for long-distance maritime couples.
         </p>
 

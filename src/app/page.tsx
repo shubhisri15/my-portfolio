@@ -1,27 +1,63 @@
 import Link from "next/link";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Image from 'next/image';
-import profilePic from '../../public/profile-img.png'
-import ScrollingTicker from "@/components/ScrollingTicker";
+import { notoSerif } from './fonts/noto-serif';
+
+// Static image paths
+const imagePaths = [
+  "/hero-bg/1.jpg",
+  "/hero-bg/2.jpeg",
+  "/hero-bg/3.jpg",
+  "/hero-bg/4.jpg",
+];
 
 export default function Home() {
   return (
-      <main className='flex justify-between gap-12 items-center py-8'>
-        <div className='flex flex-col gap-8 overflow-hidden basis-1/2'>
-          <h1 className='text-7xl uppercase font-extrabold'>Shubhi <span className='text-gray-500'>Srivastava</span></h1>
-          <div className='flex flex-col gap-2'>
-            <p className='text-3xl'>Frontend Engineer | UX Designer</p>
-            <p>I’m an engineer who blends clean code with thoughtful design, to build intuitive, performant interfaces that put users first.</p>
+    <main className="relative w-full h-screen overflow-hidden text-slate-300">
+      {/* Background image strip */}
+      <div className="absolute inset-0 z-0 flex opacity-80">
+        {imagePaths.map((src, i) => (
+          <div key={i} className="relative w-1/4 h-full">
+            <Image
+              src={src}
+              alt={`bg-${i}`}
+              fill
+              className="object-cover"
+              priority={i === 0}
+            />
           </div>
-          <div className='flex gap-4 my-4'>
-            <Link href='https://www.linkedin.com/in/shubhisrivastava15/' target="_blank"><FaLinkedin size='2rem' className='hover:fill-gray-600'/></Link>
-            <Link href='https://github.com/shubhisri15' target="_blank"><FaGithub size='2rem' className='hover:fill-gray-600'/></Link>
+        ))}
+      </div>
+
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/80 z-10" />
+
+      {/* Hero content */}
+      <div className="relative z-20 flex flex-col justify-center gap-12 items-start h-full px-8 md:ml-40">
+        <div className="flex flex-col gap-8">
+          <h1 className={`text-5xl md:text-7xl font-light fadeInUp delay-100 ${notoSerif.className}`}>She Came,</h1>
+          <h1 className={`text-5xl md:text-7xl font-light fadeInUp delay-300 ${notoSerif.className}`}>She Saw,</h1>
+          <h1 className={`text-5xl md:text-7xl font-light fadeInUp delay-500 ${notoSerif.className}`}>
+            She <span className="font-bold text-slate-300">Design-gineered.</span>
+          </h1>
+
+          <div className="flex flex-col gap-2">
+            <p className="text-lg md:text-2xl font-light max-w-2xl">
+              Hi I am Shubhi, a UX Engineer and Designer with an affinity towards lame jokes and <span className='font-medium'>intuitive user experiences</span>.
+            </p>
           </div>
-          <ScrollingTicker />
-        </div>   
-        <div>
-          <Image src={profilePic} alt='Shubhi profile picture' width={700} className="opacity-80 h-auto"/>
+
+          <div className="flex gap-6 my-4 items-center">
+            <Link href='/projects' className='bg-white text-black py-4 px-6 font-medium cursor-pointer rounded-md'>Explore My Works</Link>
+            <Link href='https://www.linkedin.com/in/shubhisrivastava15/' target="_blank">
+              <FaLinkedin size='2rem' className='hover:fill-gray-400' />
+            </Link>
+            <Link href='https://github.com/shubhisri15' target="_blank">
+              <FaGithub size='2rem' className='hover:fill-gray-400' />
+            </Link>
+          </div>
         </div>
-      </main>
+      </div>
+    </main>
   );
 }

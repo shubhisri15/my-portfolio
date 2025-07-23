@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${nanum.variable} antialiased relative`}>
         <Navbar />
-        <main className='px-12 mt-24 min-h-screen'>
+        <main className='mt-20 min-h-screen bg-slate-900 text-white'>
           {children}
         </main>
         <Footer />

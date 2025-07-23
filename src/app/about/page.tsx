@@ -1,13 +1,14 @@
-// Inside your Next.js site, e.g., components/AboutSection.jsx
+import { notoSerif } from "../fonts/noto-serif";
 
 export default function AboutSection() {
   return (
-    <section className="max-w-3xl mx-auto px-6 py-16 text-left mb-8">
-      <h2 className="text-4xl font-bold mb-8 text-indigo-600">Hi there, stalker 👀</h2>
+    <section className="max-w-4xl mx-auto px-6 py-16 text-left mb-8">
+      <h2 className={`text-5xl font-bold mb-8 text-slate-200 font-light ${notoSerif.className}`}>Hi there, stalker!</h2>
 
-      <div className="space-y-6 text-lg leading-relaxed text-gray-800">
+      <div className="space-y-6 text-lg text-slate-400 leading-relaxed">
         <p>
-          Let me make the stalking easier for you.
+          My name is Shubhi Srivastava, professionally a Software Engineer and now also a self taught UX designer, with 4 years of corporate experience 
+          and 1 year of eccentricity-exploration experience.
         </p>
 
         <p>
@@ -33,9 +34,9 @@ export default function AboutSection() {
 
       <a
         href="https://www.linkedin.com/in/shubhisrivastava15/"
-        className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-xl shadow-md transition mt-8"
+        className="inline-block bg-slate-200 hover:bg-slate-400 text-black font-semibold py-3 px-6 rounded-xl shadow-md transition mt-8"
       >
-        Hit me up!
+        Get in touch
       </a>
     </section>
   );

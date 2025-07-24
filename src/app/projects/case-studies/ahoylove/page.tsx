@@ -48,8 +48,8 @@ export default function AhoyLoveCaseStudy() {
               And so, my tiny little single screen idea started taking the shape of a multi platform application.
             </p>
             <p>
-              AhoyLove doesn't just show you your partner's info all in one place, but also allows you to strengthen your connection with 
-              them in an ambient way. This product isn't yet another fancy chat app, it's your personal love journal, 
+              AhoyLove doesn&apos;t just show you your partner&apos;s info all in one place, but also allows you to strengthen your connection with 
+              them in an ambient way. This product isn&apos;t yet another fancy chat app, it&apos;s your personal love journal, 
               and a way of communication that is independent of time and distance. It does not rely on their availability or their internet connectivity, 
               only on your willingness to love.
             </p>

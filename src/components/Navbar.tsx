@@ -33,9 +33,7 @@ export default function Navbar() {
                     <NavLink href='/about' title='About' />
                     <NavLink href='/experiments' title='Experiments' />
                 </div>
-                <div className='flex justify-between gap-12 items-center'>
-                    <a href='/Shubhi_Resume.pdf' download target='_blank' className='bg-gray-300 hover:bg-slate-300 text-slate-800 font-bold px-6 py-3 rounded-sm cursor-pointer'>RESUME</a>
-                </div>
+                <a href='/Shubhi_Resume.pdf' download target='_blank' className='bg-gray-300 hover:bg-slate-300 text-slate-800 font-bold px-4 py-2 rounded-sm cursor-pointer'>RESUME</a>
                 {mobileMenuOpen && <MobileMenu onClose={() => setMobileMenuOpen(false)}/>}
             </nav>
         </>

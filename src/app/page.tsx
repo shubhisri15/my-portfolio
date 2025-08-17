@@ -45,6 +45,7 @@ export default function Home() {
               className="object-cover"
               priority
               onLoad={() => handleLoad(i)}
+              sizes="(max-width: 768px) 100vw, 25vw"
             />
           </div>
         ))}
@@ -91,10 +92,11 @@ export default function Home() {
             <Link
               href="https://www.linkedin.com/in/shubhisrivastava15/"
               target="_blank"
+              aria-label="Visit Shubhi's LinkedIn Profile"
             >
               <FaLinkedin size="2rem" className="hover:fill-gray-400" />
             </Link>
-            <Link href="https://github.com/shubhisri15" target="_blank">
+            <Link href="https://github.com/shubhisri15" target="_blank" aria-label="Visit Shubhi's Github Profile">
               <FaGithub size="2rem" className="hover:fill-gray-400" />
             </Link>
           </div>

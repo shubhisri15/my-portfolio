@@ -38,7 +38,7 @@ export default function ProjectTile({ title, overview = '', github, caseStudy = 
           </Link>
           <div className='flex text-sm'>
             <a href='#' className='py-2 px-4 text-white hover:bg-gray-600/30 cursor-pointer rounded-lg md:mr-2 transition'>
-              Prototype
+              Live
             </a>
             <a href={caseStudy} className='py-2 px-4 text-white hover:bg-gray-600/30 cursor-pointer rounded-lg md:mr-2 transition' target={externalLink ? '_blank' : '_self'}>
               Case Study

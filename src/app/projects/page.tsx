@@ -28,7 +28,7 @@ export default function ProjectPage() {
                 />} */}
                 <ProjectTile 
                     title='Statuspage JSM Integration' 
-                    caseStudy='/projects/case-studies/statuspage-jsm' 
+                    caseStudy='https://support.atlassian.com/statuspage/docs/set-up-a-jira-service-management-integration/' 
                     github='' 
                     overview="Building a first-party integration between JSM and Statuspage for Incident Management. [Case study TBA]" 
                 />

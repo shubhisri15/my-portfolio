@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Shubhi's portfolio</title>
+        <title>Shubhi&apos;s portfolio</title>
         <meta name="description" content="This is the portfolio website of Shubhi Srivastava." />
       </head>
       <body className={`${nanum.variable} antialiased relative scroll-smooth`}>

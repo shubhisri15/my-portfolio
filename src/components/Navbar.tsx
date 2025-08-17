@@ -31,7 +31,6 @@ export default function Navbar() {
                     <NavLink href='/' title='Home'/>
                     <NavLink href='/projects' title='Work' />
                     <NavLink href='/about' title='About' />
-                    <NavLink href='/experiments' title='Experiments' />
                 </div>
                 <a href='/Shubhi_Resume.pdf' download target='_blank' className='bg-gray-300 hover:bg-slate-300 text-slate-800 font-bold px-4 py-2 rounded-sm cursor-pointer'>RESUME</a>
                 {mobileMenuOpen && <MobileMenu onClose={() => setMobileMenuOpen(false)}/>}

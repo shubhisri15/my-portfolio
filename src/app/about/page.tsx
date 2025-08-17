@@ -12,7 +12,7 @@ export default function AboutSection() {
         </p>
 
         <p>
-          I began my career as a Software Engineer at Atlassian India LLP, working on SaaS products in the ITSM suite. Over 4 years, I worked with cross-functional teams, picked up new tools and ways of working, and honestly — found it all way more refreshing than DSA.
+          I began my career as a Software Engineer at Atlassian India LLP, working on SaaS products in the ITSM suite. Over 4 years, I worked with cross-functional teams, picked up new tools and ways of working.
         </p>
 
         <p>
@@ -24,7 +24,7 @@ export default function AboutSection() {
         </p>
 
         <p>
-          Fast forward to today, I am a UX designer and frontend developer who has spent the last few months bringing her eccentric ideas to life — crafting responsive, user-centric experiences that balance form and function.
+          Fast forward to today, I am a Frontend Developer who is constantly trying to bring her eccentric ideas to life, and crafting responsive, user-centric experiences that balance form and function.
         </p>
 
         <p>

@@ -14,23 +14,30 @@ export default function ProjectPage() {
                     overview="AhoyLove is a multi-platform product designed to make life easier for people in long distance relationships with maritime officers." 
                 />
                 <ProjectTile 
+                    title="Shubhi's Buzzfeed"
+                    externalLink={true}
+                    caseStudy='https://shubhis-buzzfeed.netlify.app/' 
+                    github='https://github.com/shubhisri15/shubhi-buzzfeed' 
+                    overview="A collection of mini buzzfeed style games built using React. Go play!" 
+                />
+                {/* {<ProjectTile 
                     title='Ovua' 
                     caseStudy='/projects/case-studies/ovua' 
                     github='' 
                     overview="A Holistic PCOS Tracker for the busy modern working woman. [Case study TBA]" 
-                />
+                />} */}
                 <ProjectTile 
                     title='Statuspage JSM Integration' 
                     caseStudy='/projects/case-studies/statuspage-jsm' 
                     github='' 
                     overview="Building a first-party integration between JSM and Statuspage for Incident Management. [Case study TBA]" 
                 />
-                <ProjectTile 
+                {/* {<ProjectTile 
                     title='75 Hard Tracker' 
                     caseStudy='/projects/case-studies/75-hard' 
                     github='' 
                     overview="A mobile app tracker for the popular 75 hard personal development challenge with detailed analytics. [Case study TBA]" 
-                />
+                />} */}
             </div> 
         </main>
     )

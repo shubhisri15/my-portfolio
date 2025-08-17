@@ -9,9 +9,10 @@ type ProjectTileProps = {
     overview?: string;
     caseStudy: string;
     github: string;
+    externalLink?: boolean
 }
 
-export default function ProjectTile({ title, overview = '', github, caseStudy = '' }: ProjectTileProps) {
+export default function ProjectTile({ title, overview = '', github, caseStudy = '', externalLink=false }: ProjectTileProps) {
 
     return (
       <section className='relative w-full md:w-2/5 rounded-2xl overflow-hidden 
@@ -39,7 +40,7 @@ export default function ProjectTile({ title, overview = '', github, caseStudy = 
             <a href='#' className='py-2 px-4 text-white hover:bg-gray-600/30 cursor-pointer rounded-lg md:mr-2 transition'>
               Prototype
             </a>
-            <a href={caseStudy} className='py-2 px-4 text-white hover:bg-gray-600/30 cursor-pointer rounded-lg md:mr-2 transition'>
+            <a href={caseStudy} className='py-2 px-4 text-white hover:bg-gray-600/30 cursor-pointer rounded-lg md:mr-2 transition' target={externalLink ? '_blank' : '_self'}>
               Case Study
             </a>
           </div>

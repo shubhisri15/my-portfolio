@@ -5,10 +5,10 @@ import { notoSerif } from './fonts/noto-serif';
 
 // Static image paths
 const imagePaths = [
-  "/hero-bg/1.jpeg",
-  "/hero-bg/2.jpeg",
-  "/hero-bg/3.jpg",
-  "/hero-bg/4.jpeg",
+  "/hero-bg/1.webp",
+  "/hero-bg/2.webp",
+  "/hero-bg/3.webp",
+  "/hero-bg/4.webp",
 ];
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
               alt={`bg-${i}`}
               fill
               className="object-cover"
-              priority={true}
+              priority
             />
           </div>
         ))}

@@ -8,6 +8,12 @@ export default function ProjectPage() {
             <h1 className={`text-6xl py-12 font-light ${notoSerif.className}`}>Projects</h1>
             <div className='flex flex-col md:flex-row gap-12 p-4 px-12 md:flex-wrap md:justify-center items-center'>
                 <ProjectTile 
+                    title='PicEazy' 
+                    caseStudy='#' 
+                    github='https://github.com/shubhisri15/piceazy' 
+                    overview="An AI powered image editor with advanced photo editing tools- Crop, resize, adjust colors, remove backgrounds, and enhance your images with cutting-edge AI technology." 
+                />
+                <ProjectTile 
                     title='Ahoy Love' 
                     caseStudy='/projects/case-studies/ahoylove' 
                     github='https://github.com/shubhisri15/ahoylove' 
